@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Rock Paper Scissors</title>
+    <style>
+        #result p {
+            margin: 0;
+        }
+    </style>
 </head>
 <body>
 
     <h3 style="text-align: center;">Welcome To Rock Paper Scissors</h3>
+    <div style="display: flex; justify-content: center; gap: 8px; margin-bottom: 16px;">
+    
+        <button id="rock">
+            Rock
+        </button>
+        <button id="paper">
+            Paper
+        </button>
+        <button id="scissors">
+            Scissors
+        </button>
+    
+    </div>
+
+    <div id="result" style="display: flex; align-items: center; flex-direction: column;"></div>
 
     <script src="./main.js"></script>
     
